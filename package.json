@@ -1,0 +1,16 @@
+{
+  "name": "osinfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "check-disk-space": "^3.0.1",
+    "os": "^0.1.2",
+    "systeminformation": "^5.8.0"
+  }
+}
