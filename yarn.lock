@@ -7,6 +7,16 @@ check-disk-space@^3.0.1:
   resolved "https://registry.yarnpkg.com/check-disk-space/-/check-disk-space-3.0.1.tgz#c3798f3e4ec56dcc4d4b98dac0b770e2634efad7"
   integrity sha512-wRG5ZihEZUXAKVCio5YkLgrHsHDrD+GjRBjxJvoJvN9wrze7EdvYGnOYJSsCyZ4b40jBa3lDmWDmESY9QDQGcg==
 
+fs@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.yarnpkg.com/fs/-/fs-0.0.1-security.tgz#8a7bd37186b6dddf3813f23858b57ecaaf5e41d4"
+  integrity sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
+
+node-exec-promise@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/node-exec-promise/-/node-exec-promise-1.0.2.tgz#269e8512384d3f11256561e7c624b3ebf57a9ecf"
+  integrity sha512-/mgQ9axpTpEftV9wgAdi6ApLFGjkpd0R6zoe70vYcoiDqC2WkQIrkiHhHItbdKVJZwQH6vnntSI7UrN4EvFgIw==
+
 os@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/os/-/os-0.1.2.tgz#f29a50c62908516ba42652de42f7038600cadbc2"

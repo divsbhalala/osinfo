@@ -1,13 +1,22 @@
 const osInfo = require("./info.js");
 
-osInfo.mem(memory => {
+(async () => {
+
+    const memory = await osInfo.mem();
     console.log("Memory: " + (memory) + "%");
-});
-
-osInfo.cpu(cpu => {
+    
+    const cpu = await osInfo.cpu();
     console.log("CPU: " +(cpu) + "%");
-});
-
-osInfo.disk(disk => {
+    
+    const disk = await osInfo.disk();
     console.log("Disk: " + (disk) + "%");
-});
+    
+    console.log({
+        uptime: osInfo.uptime()
+    })
+
+    console.log({
+        isServerRunning: osInfo.isServerRunning()
+    })
+
+})()
